@@ -1,0 +1,19 @@
+Algoritmo aumento de salário
+
+Início do Algoritmo
+
+ESCREVAL ("Bom dia! Por favor, informe o seu salário para checarmos se você receberá o aumento:")
+ESCREVAL ("R$:")
+var salario : inteiro (LEIA())
+ESCREVAL ("Seu salário é de R$"  salario)
+
+SE (salario<500)
+    {
+    ESCREVAL (\nDe acordo com a decisão da empresa, você não está apto a receber o aumento.")
+    ESCREVAL ("\n)
+}
+SENÃO {
+    inteiro salarioNovo = ((salario * 30 / 100) + salario)
+    ESCREVAL ("\nDe acordo com a decisão da empresa, você está apto a receber o aumento! Seu novo salário é de R$" salarioNovo)
+    ESCREVAL ("\n)
+}

@@ -1,0 +1,13 @@
+Algoritmo de idade
+
+Início do algoritmo
+
+    ESCREVAL ("Bom dia, por favor, informe o seu ano de nascimento")
+    LEIA var idadeDeNascimento: REAL
+    var anoAtual: Calendário.Ano_Atual
+
+    int: idadeEmSemanas = (idadePessoa * 12 * 7)
+    ESCREVAL ("Então significa que você tem (provavelmente) " + idadePessoa + " anos. E se você por algum acaso quiser saber essa informação em semanas, aqui está o resultado: " + idadeEmSemanas + " semanas")
+    ESCREVAL ("Não faço idea de onde você utilizaria a informação em semanas, mas que legal!")
+
+Fim do algoritmo
